@@ -1,5 +1,9 @@
 /* import css files */
 @import url(./assets/css/_variables.css);
+/* Global css files */
+@import url(./assets/css/_global.css);
+/* Grid Css File */
+@import url(./assets/css/_grid.css);
 /* include header file */
 @import url(./assets/css/_header.css);
 
@@ -12,5 +16,6 @@ html,body{
 
 body{
     font: normal 900 1rem var(--font-Rale);
+    background-color: var(--dark);
 }
 
