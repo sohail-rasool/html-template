@@ -33,7 +33,7 @@ a{
     font: normal 700 1.2rem/1.4rem var(--font-Rale);
 }
 .text-lg{
-    font: normal 700 2rem/1.8rem var(--font-Rale);
+    font: normal bold 2rem/1.8rem var(--font-mont);
 }
 .uppercase{
     text-transform: uppercase;

@@ -23,7 +23,7 @@
           <img src="./assets/images/logo.png" alt="">
         </a>
         <!-- Toggle Menu -->
-        <button type="button" class="toggle-button">
+        <button type="button" class="toggle-button" onclick="toggleCollapseNav()">
           <span class="fas fa-hamburger"></span>
         </button>
         <!-- Navigation items -->
@@ -58,14 +58,513 @@
   <!--  end header area  -->
 
   <!--  main site area  -->
-  <main>
-    
+  <main class="main-area">
+
+    <!-- Banner Area -->
+    <section class="banner-area">
+      <div class="container-fluid">
+        <div class="banner">
+          <img src="./assets/images/banner-1920x550-01.jpg" alt="banner area" class="fluid">
+        </div>
+        <div class="banner-title text-center">
+          <h1 class="text-lg text-light">Simplicity</h1>
+          <span class="description text-sm text-light">The Power Of Wordpress</span>
+        </div>
+      </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!-- Category Section -->
+    <section class="categories">
+      <div class="container">
+        <div class="flex flex-row flex-wrap">
+          <a href="#" class="link">
+            <span>All</span>
+          </a>
+          <a href="#" class="link">
+            <span>Commercial</span>
+          </a>
+          <a href="#" class="link">
+            <span>Natural</span>
+          </a>
+          <a href="#" class="link">
+            <span>People</span>
+          </a>
+          <a href="#" class="link">
+            <span>Photography</span>
+          </a>
+          <a href="#" class="link">
+            <span>Travel</span>
+          </a>
+          <a href="#" class="link">
+            <span>Uncategorized</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End Category Section -->
+
+    <!-- post area -->
+    <section class="post-area">
+      <div class="wrapper">
+        <div class="row">
+          <div class="col-8-lg col-12-md">
+            <div class="grid">
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/1-1024x777.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/2-1024x817.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">Design</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Photography</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/3-1024x721.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/4-1024x600.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/11-838x1024.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/6-1024x758.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/7-660x660.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/8-790x1024.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/9-1024x916.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/10-660x660.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="article">
+                <article class="blog-post">
+                  <div class="post-thumbnail">
+                    <img src="./assets/images/Feature_image/11-838x1024.jpg" alt="Post Image" class="fluid">
+                  </div>
+                  <div class="post-info">
+                    <div class="post-author">
+                      <a href="#">
+                        <span class="text-sm text-gray">By Admin November 23,2021</span>
+                      </a>
+                    </div>
+                    <div class="post-title">
+                      <a href="#">
+                        <span class="text-lg text-dark">Trip that you'll never ever forget</span>
+                      </a>
+                    </div>
+                    <div class="post-content">
+                      <p class="para">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum quibusdam magnam accusamus, laboriosam non accusantium?
+                      </p>
+                    </div>
+
+                    <hr>
+                    <div class="post-cat">
+                      <a href="#"><span class="text-sm uppercase text-gray">People</span></a>
+                      <a href="#"><span class="text-sm uppercase text-gray">Travel</span></a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <!-- pagination area -->
+            <div class="row">
+              <div class="col-12-lg text-center">
+                <div class="pagination">
+                  <a href="#"><span>1</span></a>
+                  <a href="#"><span>2</span></a>
+                  <a href="#"><span>3</span></a>
+                  <a href="#"><span class="fa fa-arrow-right"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4-lg col-12-md">
+            <aside class="sidebar">
+              <!-- letest post section -->
+              <section class="latest-post">
+                <a href="#" class="text-md text-dark">Latest Post</a>
+                <div class="flex flex-column">
+                  <article class="new-post">
+                    <div class="row">
+                      <div class="col-4-lg post-image">
+                        <img src="./assets/images/Feature_image/1-1024x777.jpg" class="fluid" alt="latest post">
+                      </div>
+                      <div class="col-8-lg post-title">
+                        <div class="cat">
+                          <a href="#" class="text-sm text-gray category">People</a>
+                          <a href="#" class="text-sm text-gray category">Travel</a>
+                        </div>
+                        <a href="#" class="text-md text-dark">Trip that you'll never ever forget</a>
+  
+                      </div>
+                    </div>
+                  </article>
+                  <article class="new-post">
+                    <div class="row">
+                      <div class="col-4-lg post-image">
+                        <img src="./assets/images/Feature_image/2-1024x817.jpg" class="fluid" alt="latest post">
+                      </div>
+                      <div class="col-8-lg post-title">
+                        <div class="cat">
+                          <a href="#" class="text-sm text-gray category">People</a>
+                          <a href="#" class="text-sm text-gray category">Travel</a>
+                        </div>
+                        <a href="#" class="text-md text-dark">Trip that you'll never ever forget</a>
+  
+                      </div>
+                    </div>
+                  </article>
+                  <article class="new-post">
+                    <div class="row">
+                      <div class="col-4-lg post-image">
+                        <img src="./assets/images/Feature_image/3-1024x721.jpg" class="fluid" alt="latest post">
+                      </div>
+                      <div class="col-8-lg post-title">
+                        <div class="cat">
+                          <a href="#" class="text-sm text-gray category">People</a>
+                          <a href="#" class="text-sm text-gray category">Travel</a>
+                        </div>
+                        <a href="#" class="text-md text-dark">Trip that you'll never ever forget</a>
+  
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </section>
+              <!-- end letest post section -->
+
+              <!-- search area -->
+              <section class="search-area">
+                <div class="search">
+                  <h3 class="text-md text-dark">Search</h3>
+                  <form class="form-group">
+                    <input type="search" class="input-control mr-sm-2" placeholder="Search">
+                    <button class="btn btn-submit" type="submit"><i class="fas fa-search"></i></button>
+                  </form>
+                </div>
+
+              </section>
+              <!-- end search area -->
+
+              <!-- popular tags -->
+              <section class="popular-tags">
+                <h4 class="text-md">Popular Tags</h4>
+                <div class="tags flex flex-row flex-wrap">
+                  <a href="#"><span>Camera</span></a>
+                  <a href="#"><span>Bike</span></a>
+                  <a href="#"><span>Craft</span></a>
+                  <a href="#"><span>Photograpgy</span></a>
+                  <a href="#"><span>Article</span></a>
+                  <a href="#"><span>wordpress</span></a>
+                </div>
+              </section>
+              <!-- end popular tags -->
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End post area -->
+
   </main>
   <!--  end main site area  -->
 
   <!--  footer area  -->
-  <footer>
-
+  <footer class="footer-area">
+    <div class="row">
+      <div class="col-4-lg col-4-md col-12-sm">
+        <!-- about me -->
+        <section class="about-me">
+          <div class="site-logo">
+            <img src="./assets/images/logo.png" alt="logo">
+          </div>
+          <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil rem esse expedita, quaerat enim rerum vero tempore voluptate dolore incidunt, aliquam possimus ea magnam dicta cumque doloribus atque sit molestias!</p>
+          <div class="social-media">
+            <a href="#" class="text-primary"><span class="fab fa-facebook-f"></span></a>
+            <a href="#" class="text-primary"><span class="fab fa-instagram"></span></a>
+            <a href="#" class="text-primary"><span class="fab fa-twitter"></span></a>
+            <a href="#" class="text-primary"><span class="fab fa-youtube"></span></a>
+          </div>
+        </section>
+      </div>
+      <div class="col-4-lg col-4-md col-12-sm"></div>
+      <div class="col-4-lg col-4-md col-12-sm"></div>
+    </div>
   </footer>
   <!--  End footer area  -->
 
